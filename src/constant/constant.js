@@ -1,5 +1,3 @@
-import {Template} from "myprint-design";
-
 const templateContent = {
     "type": "Panel",
     "dragSnapPanelIs": 1,
@@ -987,7 +985,7 @@ const templateContent = {
             "y": 21.54
         }]
     }
-} as any;
+};
 export const template = {
     content: JSON.stringify(templateContent)
-} as Template;
+};

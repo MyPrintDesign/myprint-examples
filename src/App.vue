@@ -1,12 +1,12 @@
-<script setup lang="ts">
+<script setup>
 import HelloWorld from './components/HelloWorld.vue'
 import {ref} from "vue";
-import {MyPrinter, Printer} from "myprint-design";
-import {template} from "./constant/constant.ts";
+import {MyPrinter} from "myprint-design";
+import {template} from "./constant/constant";
 
 const exampleType = ref('')
-const printerList = ref<Printer[]>([])
-const defaultPrinter = ref<Printer>({} as Printer)
+const printerList = ref([])
+const defaultPrinter = ref({})
 
 /**
  * 预览面板
@@ -78,7 +78,7 @@ function handlePdfChrome() {
     previewDataList: [{}]
   }).then(res => {
     console.log(res)
-    download(res.blob!)
+    download(res.blob)
   });
   
 }
@@ -92,7 +92,7 @@ function handlePdfClient() {
     previewDataList: [{}]
   }).then(res => {
     console.log(res)
-    download(res.blob!)
+    download(res.blob)
   });
   
 }
@@ -106,7 +106,7 @@ function handlePdfServer() {
     previewDataList: [{}]
   }).then(res => {
     console.log(res)
-    download(res.blob!)
+    download(res.blob)
   });
 }
 
@@ -119,7 +119,7 @@ function handleImgChrome() {
     previewDataList: [{}]
   }).then(res => {
     console.log(res)
-    for (let blob of res.blobList!) {
+    for (let blob of res.blobList) {
       download(blob, 'myprint.png')
     }
   });
@@ -135,7 +135,7 @@ function handleImgServer() {
     previewDataList: [{}]
   }).then(res => {
     console.log(res)
-    download(res.blob!, 'myprint.png')
+    download(res.blob, 'myprint.png')
   });
   
 }
@@ -154,7 +154,7 @@ function handleGetPrinterList() {
 function handleAsyncGetPrinterList() {
   MyPrinter.asyncGetPrinterList().then(res => {
     console.log(res)
-    printerList.value = res as any
+    printerList.value = res
   }).catch(e => {
     console.log(e)
   });
@@ -168,7 +168,7 @@ function handleDefaultPrinter() {
   console.log(defaultPrinter.value)
 }
 
-function click(item: any) {
+function click(item) {
   if (item.click == null) {
     exampleType.value = item.exampleType
     return
@@ -197,7 +197,7 @@ const buttonList = ref([
     {exampleType: 'getPrinterList', label: '默认打印机', click: handleDefaultPrinter}],
 ])
 
-function download(blob: Blob, fileName = 'myprint.pdf') {
+function download(blob, fileName = 'myprint.pdf') {
   const blobUrl = URL.createObjectURL(blob);
   const a = document.createElement("a");
   a.href = blobUrl;
