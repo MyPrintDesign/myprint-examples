@@ -1,5 +1,28 @@
-# Vue 3 + TypeScript + Vite
+[//]: # (# MyPrint 打印设计器 使用示例)
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+|        项目        | 说明                               | 地址(github)                                       | 地址(gitee)                                                |
+|:----------------:|----------------------------------|--------------------------------------------------|----------------------------------------------------------|
+|     MyPrint      | 主项目                              | [`前往`](https://github.com/MyPrintDesign/myprint) | [`前往`](https://gitee.com/MyPrintDesign/myprint)          |
+|  MyPrint-server  | 服务端                              | `暂未开源`                                           | `暂未开源`                                                   |
+| MyPrint-desktop  | 客户端                              | `暂未开源`                                           | `暂未开源`                                                   |
+| MyPrint-examples | 客户端                              | [`前往`](https://github.com/MyPrintDesign/myprint-examples) | [`前往`](https://gitee.com/MyPrintDesign/myprint-examples) |
+|  MyPrint-docker  | docker构建镜像                       | [`前往`](https://github.com/MyPrintDesign/myprint-docker) | [`前往`](https://gitee.com/MyPrintDesign/myprint-docker)   |
+|        文档        | [`前往`](https://doc.myprint.top)  | —                                                | —                                                        |
+|       体验服        | [`前往`](https://demo.myprint.top) | —                                                | —                                                        |
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+## 示例项目分支说明
+
+main 为ts版本
+main-js 为js版本
+
+## 安装
+
+```sh
+npm install
+```
+
+## 启动
+
+```sh
+npm run dev
+```
