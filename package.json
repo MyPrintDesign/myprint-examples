@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "myprint-design": "^0.0.13",
+    "myprint-design": "^0.0.22",
     "vue": "^3.4.31"
   },
   "devDependencies": {
