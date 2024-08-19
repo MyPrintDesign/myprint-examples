@@ -22,9 +22,14 @@
 * 多种安装方式支持`centos`、`debian`、`docker`、`k8s` 一键安装
 ## 示例项目分支说明
 
-main 为ts版本
-main-js 为js版本
-main-html 为直接通过浏览器的 HTML 标签导入MyPrint版本
+> [!NOTE]
+> main 为ts版本
+> 
+> main-js 为js版本
+>
+> main-html 为直接通过浏览器的 HTML 标签导入MyPrint版本
+
+
 
 ## 安装
 
