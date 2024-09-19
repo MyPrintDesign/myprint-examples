@@ -9,8 +9,8 @@
 | MyPrint-desktop  | 客户端                              | `暂未开源`                                           | `暂未开源`                                                   |
 | MyPrint-examples | 客户端                              | [`前往`](https://github.com/MyPrintDesign/myprint-examples) | [`前往`](https://gitee.com/MyPrintDesign/myprint-examples) |
 | MyPrint-docker   | docker构建镜像                       | [`前往`](https://github.com/MyPrintDesign/myprint-docker) | [`前往`](https://gitee.com/MyPrintDesign/myprint-docker)   |
-| 文档               | [`前往`](https://doc.myprint.top)  | —                                                | —                                                        |
-| 体验服              | [`前往`](https://demo.myprint.top) | —                                                | —                                                        |
+| 文档               | [`前往`](https://doc.cfcss.top)  | —                                                | —                                                        |
+| 体验服              | [`前往`](https://demo.cfcss.top) | —                                                | —                                                        |
 
 ## 说明
 

@@ -17,7 +17,7 @@
     "打印",
     "设计"
   ],
-  "homepage": "https://demo.myprint.top/",
+  "homepage": "https://demo.cfcss.top/",
   "repository": {
     "type": "git",
     "url": "https://github.com/MyPrintDesign/myprint"
@@ -26,7 +26,7 @@
     "url": "https://github.com/MyPrintDesign/myprint/issues"
   },
   "dependencies": {
-    "myprint-design": "^0.0.24",
+    "myprint-design": "v1.0.3",
     "vue": "^3.4.31"
   },
   "devDependencies": {
