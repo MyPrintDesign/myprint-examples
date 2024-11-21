@@ -26,7 +26,7 @@
     "url": "https://github.com/MyPrintDesign/myprint/issues"
   },
   "dependencies": {
-    "myprint-design": "v1.0.3",
+    "myprint-design": "v1.0.8",
     "vue": "^3.4.31"
   },
   "devDependencies": {
